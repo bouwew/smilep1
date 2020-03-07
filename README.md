@@ -1,5 +1,5 @@
 # smilep1
-Plugwise Smile P1
+Plugwise Smile P1. Works for v2. V3?
 
 Configuration.yaml:
 ```
