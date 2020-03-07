@@ -1,7 +1,7 @@
 # smilep1
 Plugwise Smile P1
 
-Usage:
+Configuration.yaml:
 ```
 sensor:
   - platform: plugwisesmile
