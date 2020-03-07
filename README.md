@@ -4,8 +4,7 @@ Plugwise Smile P1
 Usage:
 ```
 sensor:
-  - platform: plugwisesmile
-    name: Plugwise Smile
+  - platform: plugwisesmil
     host: x.x.x.x
     username: smile
     password: password
