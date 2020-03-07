@@ -76,11 +76,6 @@ class PlugWiseP1Api():
     def get_base_url(self):
         return 'http://{user}:{password}@{host}/'.format(user=self.user, password=self.password, host=self.host)
 
-    def get_locations(self):
-        response = self.session.get(self.get_base_url() + 'core/locations')
-        root = etree.fromstring(response.content)
-        return root
-
     def get_electricity_module(self):
         modules_response = self.session.get(self.get_base_url() + 'core/modules')
         modules_xml = etree.fromstring(modules_response.content)
